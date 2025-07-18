@@ -56,6 +56,13 @@ Thumbs.db
 !test_test_data.csv
 !temp_combined_dataset.csv
 
+# Exclude directories and specific files
+archive/
+test_arg_dir/
+pipeline_demo.py
+FINAL_STATUS.md
+/README.md  # Root level README only (keeps scripts/README.md)
+
 # Keep specific output directories but ignore their contents
 ml_results/*
 !ml_results/.gitkeep
