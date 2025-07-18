@@ -61,7 +61,7 @@ archive/
 test_arg_dir/
 pipeline_demo.py
 FINAL_STATUS.md
-/README.md  # Root level README only (keeps scripts/README.md)
+# README.md is now included and tracked
 
 # Keep specific output directories but ignore their contents
 ml_results/*
